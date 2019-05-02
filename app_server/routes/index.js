@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const ctrlMain = require('../controllers/main')
 const ctrlLocations = require('../controllers/locations')
 const ctrlOther = require('../controllers/other')
 
