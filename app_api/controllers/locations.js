@@ -196,4 +196,4 @@ const theEarth = (function() {
         "message": "No locationid"
       });
     }
-}
+  }
