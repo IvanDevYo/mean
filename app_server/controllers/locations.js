@@ -1,3 +1,4 @@
+const config = require('../../config/config')
 module.exports.homelist = function(req, res) {
 	res.render('locations-list', {
 		title: 'Loc8r - Найдите место для работы рядом!',
@@ -71,7 +72,8 @@ module.exports.locationInfo = function(req, res) {
 				timestamp : '22.06.2017',
 				reviewText: 'Всё было хорошо. Кофе не был хорошим, зато вай-фай шикарен.',
 			}]
-		}
+		},
+		config,
 	});
 };
 
